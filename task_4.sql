@@ -1,4 +1,4 @@
--- Print full description of books table using INFORMATION_SCHEMA
+-- Print full description of Books table using INFORMATION_SCHEMA
 SELECT COLUMN_NAME AS 'Field',
     COLUMN_TYPE AS 'Type',
     IS_NULLABLE AS 'Null',
@@ -7,5 +7,5 @@ SELECT COLUMN_NAME AS 'Field',
     EXTRA AS 'Extra'
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_SCHEMA = 'alx_book_store'
-    AND TABLE_NAME = 'books'
+    AND TABLE_NAME = 'Books'
 ORDER BY ORDINAL_POSITION;
