@@ -1,4 +1,4 @@
--- Insert multiple rows into customer table
+-- Inserting multiple rows into customer table
 INSERT INTO customer (customer_id, customer_name, email, address)
 VALUES (
         2,
