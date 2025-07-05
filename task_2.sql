@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS Authors (
     author_name VARCHAR(215) NOT NULL
 );
 -- Customers table
-CREATE TABLE IF NOT EXISTS Customers (
+CREATE TABLE IF NOT EXISTS Customer (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(215) NOT NULL,
     email VARCHAR(215) NOT NULL UNIQUE,
