@@ -9,7 +9,7 @@ def create_database():
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="W9!s6Ql+.7"  # Replace with your actual password
+            password="W9!s6Ql+.7"  
         )
         
         # Create cursor
